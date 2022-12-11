@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="testng.xsd" parallel="false" name="Suite">
+ <listeners>
+ <listener class-name="EXSquared.BrookfieldAppium.extentReports.ExtentReporterNG"/>
+ <listener class-name="EXSquared.BrookfieldAppium.listeners.Listeners"/>
+  </listeners>
+  
+  <test name="Initial Tests">
+
+      
+    <classes>
+      <class name="EXSquared.BrookfieldAppium.tests.AboutPageTests"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

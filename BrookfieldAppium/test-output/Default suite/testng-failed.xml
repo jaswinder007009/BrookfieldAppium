@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="EXSquared.BrookfieldAppium.tests.AboutPageTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="ExtentReportsMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="filterPageTests"/>
+          <include name="beforeTest"/>
+          <include name="goingToLoginPage"/>
+        </methods>
+      </class> <!-- EXSquared.BrookfieldAppium.tests.AboutPageTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

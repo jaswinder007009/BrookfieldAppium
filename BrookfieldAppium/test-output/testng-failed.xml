@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="EXSquared.BrookfieldAppium.extentReports.ExtentReporterNG"/>
+    <listener class-name="EXSquared.BrookfieldAppium.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Initial Tests(failed)">
+    <classes>
+      <class name="EXSquared.BrookfieldAppium.tests.AboutPageTests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="goingToLoginPage"/>
+        </methods>
+      </class> <!-- EXSquared.BrookfieldAppium.tests.AboutPageTests -->
+    </classes>
+  </test> <!-- Initial Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
